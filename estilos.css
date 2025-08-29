@@ -1,0 +1,88 @@
+/* CHICOS: las páginas que realicen para sus artículos deben darles ya sea una clase tipo articulo1 */
+/* o un id distinto para cada uno, con eso se les da un estilo distinto. Si desean usar el mismo estilo */
+/* en el encabezado y pie de página utilicen el #pagPrincipalHeader, o segun corresponda */
+
+/*basico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Principal*/
+#pagPrincipalHeader {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#pagPrincipalHeader h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#pagPrincipalHeader h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+
+/* Main Principal*/
+#pagPrincipalMain {
+    padding: 40px;
+    background: #f8f9fa;
+}
+
+/*Cuadricula para los enlaces*/
+#pagPrincipalMain .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    justify-items: center; 
+}
+
+/*enlaces*/
+#pagPrincipalMain .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    background: #caf0f8;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #03045e;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#pagPrincipalMain .card:hover {
+    background: #90e0ef;
+    transform: sclae(1.07);
+}
+
+/*Pie de pagina principal*/
+#pagPrincipalFooter {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#pagPrincipalFooter h4{
+    margin-bottom: 10px;
+}
+
+#pagPrincipalFooter ul{
+    list-style: none;
+    padding: 0;
+}
+
+#pagPrincipalFooter li{
+    margin: 5px 0;
+}
