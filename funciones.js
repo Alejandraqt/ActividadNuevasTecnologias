@@ -49,15 +49,19 @@ function mostrarinfo(idArticulo,element,idDiv){
       if(element === "resumen"){
          contenido.innerHTML = '<h3>Resumen</h3>'+'<p>'+articulo.resumen+'</p>';
       }
-
       if(element === "palabrasclave"){
         let lista = '<ul>';
         
-        for(let i=0; i<articulo.palabrasclave.length;i++){
-         lista += '<li>'+articulo.palabrasclave[i]+'</li>';
-        }
-         lista+='</ul>';
+         for(let i=0; i<articulo.palabrasclave.length;i++){
+             lista += '<li>'+articulo.palabrasclave[i]+'</li>';
+            }
+            lista+='</ul>';
 
-         contenido.innerHTML = '<h3>Palabras Clave</h3>'+lista;
+         contenido.innerHTML += '<h3>Palabras Clave</h3>'+lista;
       }
+}
+
+function limpiarDatos(idDiv){
+     let contenido = document.getElementById(idDiv);
+     contenido.innerHTML = "";
 }
