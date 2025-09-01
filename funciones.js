@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Colección de objetos de "Articulos"
 //1 = Articulo1
 var articulos = {
@@ -93,5 +92,3 @@ function copiarBusqueda() {
   navigator.clipboard.writeText(cita);
   alert("Busqueda copiada al portapapeles");
 }
-=======
->>>>>>> origin/main
