@@ -1,4 +1,4 @@
-// Colección de objetos de "Articulos"-Miguel 
+// Colección de objetos de "Articulos"-Miguel Correa
 //1 = Articulo1
 var articulos = {
   1: {
@@ -39,12 +39,27 @@ var articulos = {
     contributes to tooth preparation skills.
     ` ,
 
-    palabrasclave: ['Tooth Preparation', 'Dental education','Virtual reality'],
+    palabrasclave: ['Tooth Preparation', 'Dental education','Virtual reality']
   },
-
+//Articulo 2
   2:{
     resumen:  `
-    `
+     Interpersonal skills such as empathy, intuition and sensing, emotional intelligence,
+     and effective communication, are crucial for teachers working with infants (aged birth to 2 year)
+     in Early Childhood Education and Care (ECEC). However, due to the intimate and vulnerable nature 
+     of this relationship for infants, opportunities for students to rehearse these skills in real life
+     ECE contexts are limited. We co-designed an immersive virtual reality (VR) environment to simulate
+     an ECEC context, with a virtual baby prototype, furniture such as a changing table and a cot, and 
+     toys a user could interact with. A pilot user study tested its efficacy with 17 participants made 
+     up of 12 students of a tertiary ECE program and 5 qualified ECE teachers. A questionnaire was used 
+     to collect data on usability, experience, and overall feedback on the VR baby experience. Results
+     show that - while the majority of the participants appraised the audio-visual component of the VR environment,
+     the limited haptic feedback and interaction options were a source of fear and discomfort. 
+     Participants reported to being immersed in the learning environment, but would appreciate more realistic
+     feedback mechanisms like touch and breath. We suggest that further research looks into the effect of advanced 
+     haptic feedback in VR when used for learning in ECE.
+    `,
+    palabrasclave: ['Virtual reality','Virtual baby','Early childhood education','Immersive learning']
   }
 }
 
