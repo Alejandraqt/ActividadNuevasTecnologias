@@ -42,7 +42,7 @@ var articulos = {
   },
 }
 
-function mostrarArticulo(idArticulo,element,idDiv){
+function mostrarinfo(idArticulo,element,idDiv){
       let articulo = articulos[idArticulo];
       let contenido = document.getElementById(idDiv);
       
