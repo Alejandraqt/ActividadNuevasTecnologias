@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+// Colección de objetos de "Articulos"
+//1 = Articulo1
+var articulos = {
+  1: {
+    resumen: `
+    Background: It has been considered that the preclinical education may be inadequate 
+    in the development of preparation skills of dental students. With technological 
+    developments, there is an increase in the use of computer-aided simulations in 
+    dental education. Virtual reality (VR) patient simulators promise practice in a 
+    realistic environment with detailed, frequent and objective feedback, but it remains 
+    unclear whether these features lead to better or faster skill acquisition.
 
     This study aims to investigate the impact of virtual reality simulations on students’ 
     clinical preparation skills.
@@ -81,3 +93,5 @@ function copiarBusqueda() {
   navigator.clipboard.writeText(cita);
   alert("Busqueda copiada al portapapeles");
 }
+=======
+>>>>>>> origin/main
