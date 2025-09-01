@@ -86,3 +86,11 @@
 #pagPrincipalFooter li{
     margin: 5px 0;
 }
+
+.option-button{
+    background-color: #caf0f8;
+    width: 304px;
+    height: 85px;
+    font-size: 30px;
+    text-align: center;
+}
