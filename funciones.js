@@ -50,4 +50,14 @@ function mostraArticulo(idArticulo,element,idDiv){
          contenido.innerHTML = '<h3>Resumen</h3>'+'<p>'+articulo.resumen+'</p>';
       }
 
+      if(element === "palabrasclave"){
+        let lista = '<ul>';
+        
+        for(let i=0; i<articulo.palabrasclave.length;i++){
+         lista += '<li>'+articulo.palabrasclave[i]+'</li>';
+        }
+         lista+='</ul>';
+
+         contenido.innerHTML = '<h3>Palabras Clave</h3>'+lista;
+      }
 }
