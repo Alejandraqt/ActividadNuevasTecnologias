@@ -1,4 +1,4 @@
-// Colección de objetos de "Articulos"
+// Colección de objetos de "Articulos"-Miguel 
 //1 = Articulo1
 var articulos = {
   1: {
@@ -41,6 +41,11 @@ var articulos = {
 
     palabrasclave: ['Tooth Preparation', 'Dental education','Virtual reality'],
   },
+
+  2:{
+    resumen:  `
+    `
+  }
 }
 
 function mostrarinfo(idArticulo,element,idDiv){
