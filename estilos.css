@@ -149,4 +149,166 @@ list-style-type: none;
   border-top: 2px solid #ddd;
   margin-top: 2rem;
 }
+/* Artículo 10 danna */
+#articulo10 {
+    background-color: #ffe6f0;
+    border-left: 6px solid #ff66a3;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#articulo10 h2 {
+    color: #cc0066;
+}
+
+#articulo10 button {
+    background: #ff66a3;
+    color: #fff;
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+#articulo10.modo-oscuro,
+#articulo11.modo-oscuro {
+    background: #121212;
+    color: #f5f5f5;
+}
+
+#articulo10.modo-oscuro a #articulo10,
+#articulo11 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#articulo10 .texto {
+    flex: 1 1 400px;
+    max-width: 700px;
+}
+
+#articulo10 .imagen-lateral {
+    flex: 0 0 300px;
+}
+
+#articulo10 .imagen-lateral img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+#articulo10 button {
+    background: #f69d37;
+    color: #fff;
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Artículo 11 danna */
+#articulo11 {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#articulo11 h2 {
+    color: #cc0066;
+}
+
+#articulo11 button {
+    display: block;
+    margin: 20px auto;
+    background: #f69d37;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#resumen {
+    transition: background-color 0.3s;
+}
+
+.resaltado {
+    background-color: yellow;
+}
+
+
+/* Artículo 12 danna */
+#articulo12 {
+    background-color: #fde7f1;
+    border-left: 6px solid #b83577;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#articulo12 h2 {
+    color: #7e1550;
+}
+
+#articulo12 button {
+    background: #b83577;
+    color: #fff;
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#pagHeaderDanna {
+    background: #f575d7;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#pagFooterDanna {
+    background: #f575d7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.bloque {
+    margin-bottom: 20px;
+}
+.articulo11 {
+  padding: 20px;
+  border: 1px solid #f10909;
+  background-color: rgb(131, 6, 6);
+  transition: background-color 0.3s ease;
+}
+
+.articulo11.fondo-activo {
+  background-color: rgb(240, 19, 19);
+}
+
+.articulo11 button {
+  margin-top: 10px;
+  background: #f69d37;
+  color: rgb(218, 24, 24);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
