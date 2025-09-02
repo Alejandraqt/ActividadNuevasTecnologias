@@ -62,7 +62,7 @@
 
 #pagPrincipalMain .card:hover {
     background: #90e0ef;
-    transform: sclae(1.07);
+    transform: scale(1.07);
 }
 
 /*Pie de pagina principal*/
