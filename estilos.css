@@ -247,6 +247,11 @@ list-style-type: none;
     border-left: 6px solid #b83577;
     padding: 20px;
     border-radius: 12px;
+
+    /* columnas */
+    column-count: 2;       
+    column-gap: 40px;       
+    text-align: justify;    
 }
 
 #articulo12 h2 {
@@ -259,6 +264,11 @@ list-style-type: none;
     border: 0;
     padding: 10px 14px;
     border-radius: 8px;
+}
+
+.bloque {
+    break-inside: avoid; 
+    margin-bottom: 20px;
 }
 
 html,
@@ -311,4 +321,3 @@ main {
   border-radius: 8px;
   cursor: pointer;
 }
-
