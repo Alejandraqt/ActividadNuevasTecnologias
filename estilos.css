@@ -321,3 +321,123 @@ main {
   border-radius: 8px;
   cursor: pointer;
 }
+
+#headerArticuloK {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#headerArticuloK h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+#headerArticuloK h3 {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#articuloK {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#articuloInfoK {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  display: none;
+}
+
+#articuloInfoK th, 
+#articuloInfoK td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+#articuloInfoK th {
+  background-color: #0077b6;
+  color: white;
+}
+
+#articuloInfoK tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#articuloInfoK ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#articuloK h3 {
+  margin-top: 30px;
+  color: #0077b6;
+}
+
+#articuloK p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#articuloK h4 {
+  margin-top: 20px;
+  color: #0077b6;
+}
+
+#articuloK ul {
+  margin: 10px 0 20px 20px;
+}
+
+#articuloFooterK {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#articuloFooterK h3 {
+  margin: 0 0 10px 0;
+}
+
+#articuloFooterK h5 {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+button {
+  background: #0077b6;        
+  color: white;               
+  border: none;
+  padding: 12px 24px;         
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;         
+  cursor: pointer;
+  margin: 15px auto;
+  display: block; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease;  
+}
+
+button:hover {
+  background: #006196;        
+  transform: scale(1.05);     
+}
+
+#reloj {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #2c3e50;
+  font-weight: bold;
+  text-align: center; 
+}
