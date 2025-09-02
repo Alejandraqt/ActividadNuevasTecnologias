@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Articulo 1</title>
 </head>
 <body>
     <header id="pagPrincipalHeader">
         <h1>The effect of virtual reality simulators on tooth preparation skills of dental students</h1>
         <h3>Autores: Burcu Dündar, Fehmi Gönüldaş, Bora Akat, Kaan Orhan </h3>
         <h3>Fuente: BMC Oral Healt</h3>
-        <h4>Cadena de busqueda: TITLE-ABS-KEY ("Virtual Reality" AND "Education") AND (LIMIT-TO(DOCTYPE,"ar")) AND (LIMIT-TO(EXACTKEYWORD , "Virtual Reality") OR LIMIT-TO (EXACTKEYWORD , "Education")) </h4>
     </header>
 
     <div class="container" id="articulo1">
@@ -20,14 +19,18 @@
             <th><button class="option-button" onclick="mostrarinfo(1,'resumen','contenido1')">Resumen</button></th>
             <th><button class="option-button" onclick="mostrarinfo(1,'palabrasclave','contenido1')">Palabras Clave</button></th>
             <th><button class="option-button" onclick="limpiarDatos('contenido1')">Limpiar</button></th>
-            <th><a href="index.html"><button class="option-button">Volver</button></a></th>
+            <th><button class="option-button" onclick="copiarCita(1,'contenido1')">Citar</button></th>
         </tr>
        </table>
 
              <div class="card-show" id="contenido1"></div>
       </div>
     </div>
-    
+
+    <footer id="pagPrincipalFooter">
+        <p>Cadena de busqueda: TITLE-ABS-KEY ("Virtual Reality" AND "Education") AND (LIMIT-TO(DOCTYPE,"ar")) AND (LIMIT-TO(EXACTKEYWORD , "Virtual Reality") OR LIMIT-TO (EXACTKEYWORD , "Education"))</p>
+    </footer>
+
     <link rel="stylesheet" href="estilos.css">
     <script src="funciones2.js"></script>
 </body>

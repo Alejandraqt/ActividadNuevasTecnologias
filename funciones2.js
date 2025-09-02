@@ -39,7 +39,10 @@ var articulos = {
     contributes to tooth preparation skills.
     ` ,
 
-    palabrasclave: ['Tooth Preparation', 'Dental education','Virtual reality']
+    palabrasclave: ['Tooth Preparation', 'Dental education','Virtual reality'],
+    citar: `
+    Dündar, B., Gönüldaş, F., Akat, B., Orhan, K. (2025). The effect of virtual reality simulators on tooth preparation skills of dental students. BMC Oral Health, (1-9). https://doi.org/10.1186/s12903-025-05812-x.  
+    `
   },
 //Articulo 2
   2:{
@@ -59,7 +62,9 @@ var articulos = {
      feedback mechanisms like touch and breath. We suggest that further research looks into the effect of advanced 
      haptic feedback in VR when used for learning in ECE.
     `,
-    palabrasclave: ['Virtual reality','Virtual baby','Early childhood education','Immersive learning']
+    palabrasclave: ['Virtual reality','Virtual baby','Early childhood education','Immersive learning'],
+    citar: `Heide K, L., Cara ,S., Rene, N., Jayne, W. (2025). Exploring virtual encounters in early childhood esduction: Results of a pilot study. Computers & Education: X Reality, (7), 1-8. https://doi.org/10.1016/j.cexr.2025.100104. `
+
   }
 }
 
@@ -80,9 +85,20 @@ function mostrarinfo(idArticulo,element,idDiv){
 
          contenido.innerHTML += '<h3>Palabras Clave</h3>'+lista;
       }
+
 }
 
 function limpiarDatos(idDiv){
      let contenido = document.getElementById(idDiv);
      contenido.innerHTML = "";
+}
+
+function copiarCita(idArticulo,idDiv){
+   let articulo = articulos[idArticulo]; 
+   let cita = articulo.citar;  
+   navigator.clipboard.writeText(cita);
+   alert("Cita copiada en portapapeles");
+
+   let contenido = document.getElementById(idDiv);
+   contenido.innerHTML += '<h3>Cita</h3>'+'<p>'+cita+'</p>';
 }
