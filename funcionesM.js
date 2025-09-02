@@ -65,7 +65,7 @@ var articulos = {
     palabrasclave: ['Virtual reality','Virtual baby','Early childhood education','Immersive learning'],
     citar: `Heide K, L., Cara ,S., Rene, N., Jayne, W. (2025). Exploring virtual encounters in early childhood esduction: Results of a pilot study. Computers & Education: X Reality, (7), 1-8. https://doi.org/10.1016/j.cexr.2025.100104. `
   },
-
+ //Articulo 3
   3:{
       resumen: `
       More virtual reality (VR) scenarios have become more prevalent in recent years. More and more people are getting into VR, meaning that objective physiological measures to assess a user's emotional state automatically are
