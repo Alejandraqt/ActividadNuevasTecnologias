@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articulo 7</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <center>
+    <br>
+    <!-- Titulo Principal -->
+    <header id="headerArticuloA">
+      <h1>Artículo #7</h1>
+      <br>
+      <h3>Participating experience of virtual reality teaching among nursing students: A meta-synthesis of qualitative studies.</h3>
+      <br>
+    </header>
+
+
+    <main id="articuloA">
+
+      <!--Tabla de información-->
+      <table id="articuloAInfo">
+        <thead>
+          <tr>
+            <th>Autores: <button id ="botonesA" onclick="ordenarAutores()">Ordenar Alfabeticamente</button></th> 
+            <th>Fecha:</th>
+            <th>Revista:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li>Kai Liu</li>
+                <li>Fang Han</li>
+                <li>XiaoQin Li</li>
+                <li>WenFeng Fu</li>
+                <li>Yanxue Zheng</li>
+                <li>Xing Gao</li>
+              </ul>
+            </td>
+            <td>2025 March 25</td>
+            <td>BMC Geriatrics.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Resumen y palabras-->
+      <br>
+      <h3>Resumen:</h3>
+      <p id="resumenA">
+      <button id ="botonesA" onclick="ocultarResumen()">Ocultar resumen</button> 
+      <br><br>
+        Objective: To systematically evaluate research on nursing students’ experience of participating in teaching virtual reality technology. Methods: A computerized search of PubMed, Web of Science, Wiley Online Library, China Knowledge Network, Wanfang Database, CINAHL(Cumulative Index to Nursing and Allied Health Literature), and China Biomedical Literature Service System was conducted to search for qualitative studies on nursing students’ experiences of participating in teaching with virtual reality technology, with a time frame from 2013 to 2023. The quality of the Literature was evaluated using the quality evaluation criteria of Australian JBI evidence-based healthcare centers, and the results were summarized and integrated using the aggregative integration method. Results: A total of 9 studies were included, ultimately distilling 37 findings from the original studies, which were outlined to form 7 new categories, yielding three integrated findings: strengths and needs of virtual reality teaching and learning experiences; weaknesses and challenges of virtual reality teaching and learning experiences; and future applications and possibilities of virtual reality teaching and learning. Conclusion: By combining the advantages of virtual reality technology with the occurrence of nursing teaching, nursing students can experience immersive experiential learning at any time and any place without time and space constraints, and the overall cognitive pleasure of nursing students to this virtual teaching system is good. However, it is necessary to enrich further the details of teaching content design and optimize virtual reality’s technical experience. 
+      </p>
+      <br>
+
+      <h3>Palabras Clave:</h3>
+      <ul>
+        <li>Experience</li>
+        <li>Meta-integration</li>
+        <li>Nursing education</li>
+        <li>Nursing students</li>
+        <li>Virtual reality</li>
+      </ul>
+      <br>
+    </main>
+
+    <!--Pie de Pagina-->
+    <footer id="articuloAFooter">
+      <h3>Cadena de búsqueda:</h3>
+      <button id ="botonesA" onclick="copiarBusqueda()">Copiar busqueda</button>
+      <h5>( TITLE-ABS-KEY ( virtual reality ) AND TITLE-ABS-KEY ( health ) ) AND ( LIMIT-TO ( DOCTYPE , "ar" ) </h5>
+    </footer>
+
+    <script src="funcionesA.js"></script>
+
+  </center>
+</body>
+
+</html>

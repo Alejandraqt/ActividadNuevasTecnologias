@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articulo 8</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <center>
+    <br>
+    <!-- Titulo Principal -->
+    <header id="headerArticuloA">
+      <h1>Artículo #8</h1>
+      <br>
+      <h3>Time travel of older people through virtual reality: a qualitative study.</h3>
+      <br>
+    </header>
+
+
+    <main id="articuloA">
+
+      <!--Tabla de información-->
+      <table id="articuloAInfo">
+        <thead>
+          <tr>
+            <th>Autores: <button id ="botonesA" onclick="ordenarAutores()">Ordenar Alfabeticamente</button></th>
+            <th>Fecha:</th>
+            <th>Revista:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li>Leyla Muslu</li>
+                <li>Zeynep Karakuş</li>
+                <li>Ercan Asï</li>
+                <li>Rabia Bayindir</li>
+                <li>Zeynep Özer</li>
+              </ul>
+            </td>
+            <td>2025 January 20</td>
+            <td>BMC Geriatrics.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Resumen y palabras-->
+      <br>
+      <h3>Resumen:</h3>
+      <p id="resumenA">
+        <button id ="botonesA" onclick="ocultarResumen()">Ocultar resumen</button>
+        <br><br>
+        Background: Innovative technologies such as virtual reality may improve physical and cognitive functions in
+        older people. While there are some experimental studies on virtual reality, qualitative studies related to the
+        virtual reality experiences of older people are limited in the literature. This study aims to describe older
+        people’s perceptions about their experiences regarding virtual reality. Methods: The study has qualitative
+        descriptive design. The data were collected through semi-structured individual interviews with older people (n =
+        37). The interviews were conducted during a two-months period, from February to March 2022. Thematic and
+        descriptive analysis was used to analyse data. The Consolidated Criteria for Reporting Qualitative Research
+        (COREQ) checklist was used to report the study. Results: Four themes and 15 sub-themes were identified from the
+        interviews. The themes were (a) time travel through virtual reality, (b) comparing the past and present through
+        virtual reality, (c) benefits of virtual reality, and (d) the meaning of virtual reality. Conclusions: This
+        study provides in-depth information about the views of older people regarding the virtual reality experience.
+        The study revealed that older people had positive experiences with virtual reality and showed that it has the
+        potential to be useful in elderly care. In the study, virtual reality also enabled older people to have a
+        time-traveling experience. It is recommended that virtual reality should be integrated into the care of older
+        people by nurses and healthcare professionals.
+      </p>
+      <br>
+
+      <h3>Palabras Clave:</h3>
+      <ul>
+        <li>Individual interviews</li>
+        <li>Nursing</li>
+        <li>Older people</li>
+        <li>Qualitative study</li>
+        <li>Virtual reality</li>
+      </ul>
+      <br>
+    </main>
+
+    <!--Pie de Pagina-->
+    <footer id="articuloAFooter">
+      <h3>Cadena de búsqueda:</h3>
+      <button id ="botonesA" onclick="copiarBusqueda()">Copiar busqueda</button>
+      <h5>( TITLE-ABS-KEY ( virtual reality ) AND TITLE-ABS-KEY ( health ) ) AND ( LIMIT-TO ( DOCTYPE , "ar" ) </h5>
+    </footer>
+
+    <script src="funcionesA.js"></script>
+
+  </center>
+</body>
+
+</html>
