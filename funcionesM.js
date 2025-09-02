@@ -64,6 +64,27 @@ var articulos = {
     `,
     palabrasclave: ['Virtual reality','Virtual baby','Early childhood education','Immersive learning'],
     citar: `Heide K, L., Cara ,S., Rene, N., Jayne, W. (2025). Exploring virtual encounters in early childhood esduction: Results of a pilot study. Computers & Education: X Reality, (7), 1-8. https://doi.org/10.1016/j.cexr.2025.100104. `
+  },
+
+  3:{
+      resumen: `
+      More virtual reality (VR) scenarios have become more prevalent in recent years. More and more people are getting into VR, meaning that objective physiological measures to assess a user's emotional state automatically are
+      becoming more critical. Individuals’ emotional states impact their behaviour, opinions, emotions, and decisions.
+      They may be used to analyze VR experiences and make systems react to and engage with the user’s emotions.
+      VR environments require users to wear head-mounted displays (HMDs), blocking off their upper faces. That
+      makes traditional Facial Expression Recognition (FER) approaches very limited in their usefulness. Thus, a
+      Deep Learning (DL) solution combined with image processing is utilized to classify universal emotions: sadness,
+      happiness, disgust, anger, fear and surprise. Hence, this paper suggests the Deep Automatic Facial Expression
+      Recognition Model (DAFERM) for interactive virtual reality (VR) applications such as intelligent education,
+      social networks, and virtual training. Two main parts comprise the system: one that uses deep neural networks
+      (DNNs) for facial emotion identification and another that automatically tracks and segments faces. The system
+      begins by following a marker on the front of the head-mounted display (HMD). With the help of the spatial data
+      that has been retrieved, the positions and rotations of the face are estimated to segment the mouth. Finally, the
+      system interacts with DNN using the pixels processed by the lips. It obtains the facial expression results in real
+      time using an adaptive method for histogram-based mouth segmentation.
+      `,
+      palabrasclave: ['Facial expression recognition','Deep learning','Virtual reality','Image processing','Deep neural network'],
+      citar: `Quinzhen, G., Xuefang, L., Yongqiang, M. (2025). Real-Time Facial Expression Recognition Based on Image Processing in Virtual Reality. Int J comput Intell Syst, (18:8), 1-16. https://doi.org/10.1007/s44196-024-00729-9. `
 
   }
 }

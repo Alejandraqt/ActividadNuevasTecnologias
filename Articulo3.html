@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articulo 3</title>
+</head>
+<body>
+    <header id="pagPrincipalHeader">
+    <h1>Real-Time Facial Expression Recognition Based on Image Processing in Virtual Reality</h1> 
+    <h3>Autores: Qingzhen Gong, Xuefang Liu, Yongqiang Ma</h3> 
+    <h3>Fuente: Int J Comput Intell Syst</h3>  
+    </header>
+
+    <div class="container" id="Articulo3">
+       <div class="row">
+        <table class="buttons-container">
+            <tr>
+                <th><button class="option-button" onclick="mostrarinfo(3,'resumen','contenido3')">Resumen</button></th>
+                <th><button class="option-button" onclick="mostrarinfo(3,'palabrasclave','contenido3')">Palabras Clave</button></th>
+                <th><button class="option-button" onclick="limpiarDatos('contenido3')">Limpiar</button></th>
+                <th><button class="option-button" onclick="copiarCita(3,'contenido3')">Citar</button></th>
+            </tr>
+        </table>
+       </div>
+
+       <div class="card-show" id="contenido3"></div>
+    </div>
+  
+    <footer id="pagPrincipalFooter">
+        <p>Cadena de busqueda: TITLE-ABS-KEY ("Virtual Reality" AND "Education") AND (LIMIT-TO(DOCTYPE,"ar")) AND (LIMIT-TO(EXACTKEYWORD , "Virtual Reality") OR LIMIT-TO (EXACTKEYWORD , "Education"))</p>
+    </footer>
+</body>
+
+      <link rel="stylesheet" href="estilos.css">
+      <script src="funcionesM.js"></script>
+</html>
